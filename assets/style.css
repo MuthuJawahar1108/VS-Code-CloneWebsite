@@ -1,0 +1,123 @@
+
+:root {
+    --font-body: "Segoe UI",SegoeUI,Helvetica,Arial,sans-serif;
+    --fw-light: 300;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fs-body: 18px;
+    --fs-body-sm: 14px;
+    --fs-body-12: 12px;
+    --fs-body-8: 8px;
+    --fs-body-btn: 18px;
+    --lh-body: 24px;
+    --lh-body-sm: 20px;
+    --clr-black: hsl(0deg 0% 10%);
+    --clr-dark-theme: hsl(0deg 0% 13%);
+    --clr-white: hsl(0deg 0% 100%);
+    --clr-off-white: hsl(0deg 0% 87%);
+    --clr-violet-light: hsl(262deg 46% 58%);
+    --clr-violet: hsl(262deg 35% 49%);
+    --clr-violet-med: hsl(261deg 36% 41%);
+    --clr-violet-dark: hsl(259deg 31% 26%);
+    --clr-purple-light: hsl(262deg 47% 87%);
+    --clr-purple: #8661C5;
+    --clr-purple-med: hsl(262deg 35% 49%);
+    --clr-purple-dark: hsl(261deg 36% 41%);
+    --clr-blue-light: hsl(204deg 100% 40%);
+    --clr-blue: hsl(207deg 94% 38%);
+    --clr-blue-dark: hsl(210deg 86% 35%);
+    --clr-purple-text: hsl(273deg 91% 79%);
+    --clr-darkbg-purple: hsl(274deg 100% 81%);
+    --clr-darkbg-auxtext: #9A70D4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+header{
+    /* border: 2px solid black; */
+    background: #1F1F1F;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    gap: 30px;
+}
+.header-left-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+    gap: 5px;
+}
+.header-icon-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.header-icon-group>a{
+    width: 40%;
+}
+.header-icon-group>a>img{
+    width: 100%;
+}
+.header-icon-group>span{
+    width: 20%;
+    color: white;
+}
+.header-icon-group>a>p{
+    width: 100%;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+.header-links>div{
+    width: calc(100%/4);
+    
+}
+.doublet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    width: max-content;
+}
+
+.doublet button{
+    width: 80%;
+}
+.doublet .img{
+    width: 20%;
+}
+.doublet .img img{
+    width: 20px;
+    height: 20px;
+}
+.download button{
+    width: 100%;
+}
+
+
+.header-new-button{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+.header-right-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+}
+.header-right-section div{
+    width: calc(100%/3);
+}
