@@ -50,7 +50,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 65%;
+    width: 75%;
     gap: 5px;
 }
 .header-icon-group{
@@ -103,21 +103,18 @@ header{
 }
 
 .doublet button{
-    width: 80%;
+    /* width: 80%; */
     background-color: #1F1F1F;
     color: white;
     outline: none;
     border: none;
-
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
 }
-.doublet .img{
-    width: 20%;
-    /* color: white; */
 
-}
-.doublet .img img{
+.doublet button img{
     width: 20px;
     display: flex;
     justify-content: center;
@@ -125,6 +122,18 @@ header{
     color: black;
     height: 20px;
 }
+/* .doublet .img{
+    width: 20%;
+    color: white; 
+} */
+/* .doublet .img img{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 20px;
+} */
 .download button{
     width: 100%;
     outline: none;
@@ -135,7 +144,13 @@ header{
 
 
 .header-new-button{
-    /* border: 2px solid rgb(255, 255, 255); */
+    border: 1.5px solid rgb(255, 255, 255);
+    background-color: #1F1F1F;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+
 }
 
 
@@ -144,8 +159,36 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 35%;
+    width: 25%;
 }
 .header-right-section div{
     width: calc(100%/3);
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1F24;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-section-headers{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    gap:5px;
+}
+/* .hero-section-headers-headers_top{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+} */
+.hero-section-headers h1{
+    text-align: left;
+    width: 100%;
 }
